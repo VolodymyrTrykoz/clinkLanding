@@ -1,0 +1,48 @@
+.presentation
+  &__wrapper
+    background: #fa6900
+    position: relative
+  &__descr
+    font-size: 22px
+    font-weight: 300
+    width: 75%
+    padding-top: 50px
+    margin: 0 auto
+    color: #fff
+  &__disabledJS
+    position: relative
+    top: -350px
+    margin-bottom: -300px
+    &--disabled
+      display: none
+
+  .carousel
+    height: 400px
+    &-item
+      width: 500px
+      height: auto
+      img
+        width: 500px
+        height: auto
+    &__left
+      transform: rotateZ(180deg) translateY(50%)
+      left: 16vw
+      z-index: 50
+    &__right
+      right: 16vw
+      z-index: 50
+      transform: translateY(-50%)
+  .carousel__left, .carousel__right
+    position: absolute
+    width: 30px
+    height: auto
+    top: 50%
+    cursor: pointer
+    fill: #7f7f7f
+
+
+
+
+
+
+

@@ -1,0 +1,37 @@
+.personal
+  &__wrapper
+    background: #f1f1f1
+    position: relative
+  &__item
+    display: block
+    color: #000
+  .carousel
+    height: 500px !important
+    &-item
+      .personal__img
+        width: 165px
+        padding-top: 50px
+  &__name
+    font-size: 26px
+    font-weight: 600
+    margin-bottom: 0
+  &__title
+    font-weight: 300
+    margin-top: 0
+  &__descr
+    width: 35%
+    margin: 0 auto
+  &__disabledJS
+    background: #f1f1f1
+    padding-bottom: 50px
+    position: relative
+    top: -400px
+    margin-bottom: -400px
+    &--disabled
+      display: none
+    .disabled__item
+      margin-bottom: 70px
+
+//sorry for long cascading. It is the most appropriate way to rewrite default styles of materialize carousel
+.carousel.carousel-slider .carousel-item .personal__title
+  font-size: 22px

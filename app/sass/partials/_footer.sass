@@ -1,0 +1,29 @@
+.footer
+  background-color: $aqua
+  font-size: 14px
+  &__wrapper
+    display: flex
+    justify-content: space-between
+    padding: 25px 0
+  &__rules
+    a
+      color: #fff
+      transition: color .2s ease-in-out
+      &:first-child
+        padding-right: 10px
+        position: relative
+        &:after
+          content: ''
+          position: absolute
+          right: 0
+          height: 60%
+          width: 1px
+          background: #fff
+          top: 50%
+          transform: translateY(-50%)
+      &:last-child
+        padding-left: 5px
+      &:hover
+        color: $orange
+  &__copiright
+    color: #fff
